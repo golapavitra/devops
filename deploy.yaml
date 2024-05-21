@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: java-conatiner
-        image: test:latest
+        image: golapavitra918/cicddemo:latest
         ports:
         - containerPort: 8080
