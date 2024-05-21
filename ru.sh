@@ -4,4 +4,6 @@
 #kubectl config use-context <context-name>
 
 # Run kubectl command
-kubectl get pods
+kubectl get ns
+kubectl apply -f deploy.yaml -n test
+kubectl get pod -n test
